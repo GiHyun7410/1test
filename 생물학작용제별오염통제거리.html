@@ -1,0 +1,460 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <!--            안드로이드 홈화면추가시 상단 주소창 제거-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale = 0.5, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"> -->
+    <!-- <meta name = "mobile-web-app-capable" content="yes"> -->
+    <!--            ios홈화면추가시 상단 주소창 제거-->
+    <meta name = "apple-mobile-web-app-capable" content="yes">
+
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1">
+	<title>작용제별 위험 거리</title>
+	<style type="text/css">
+		@import url("./css/생물학작용제별오염통제거리.css");
+		@import url("./css/화학작용제별오염통제거리1.css");
+		@import url("./css/화학작용제별오염통제거리2.css");
+	</style>
+	
+	<script type="text/javascript" src="./JS/header.js"></script>
+	<script type="text/javascript" src="./JS/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#menus").load("menu.html")
+		});
+	</script>
+	
+</head>
+<body>
+	<header>
+		
+	</header>
+	<main>
+
+		<!--사이드 메뉴 만들기----------------------------------->
+
+		<div id="menus"></div>
+
+		<!--------------------------------------------------------------->
+		
+		<div id="containerB">
+			<div class="table" id="input-form"> <input class="tex" type="text" id="keyword" placeholder="물질명칭 검색"/> </div>
+			
+			<table class="table1" id="user-table">
+				<thead>
+					<tr><th class="hedl" colspan="4" style="
+					    border-top-width: 0px;
+					    border-left-width: 0px;
+					    border-right-width: 0px;
+						">생물학물질별 주요 정보</th></tr>
+					<tr><th class="hedl2" colspan="4">* PL 설치 : Hot Zone에서 5~10m 이격 <br> 양성시 10배 확장 설치</th>
+					</tr>
+					<tr><th class="tbwid_10" rowspan="2">연번</th>	
+						<th class="tbwid_20" rowspan="2">명칭</th>	
+					</tr>
+					
+				</thead>
+			</table>
+			
+			
+			<table class="table2" id="user-table1">
+				<tr>		
+					<td class="tbwid_10">1</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_01">에볼라 바이러스</button></td>
+					<div id="modal_01">
+						<div class="modal_content">
+							
+							<button type="button" id="modal_close_btn_01">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/에볼라바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>	
+				
+				
+				
+				<tr>
+					<td class="tbwid_10">2</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_02">마버그 바이러스</button></td>
+					<div id="modal_02">
+						<div class="modal_content">
+
+							<button type="button" id="modal_close_btn_02">닫기</button>	
+							<img class="style-logo" src="./picture/Bpic/마버그바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+
+				
+				<tr>
+					<td class="tbwid_10">3</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_03">라싸 바이러스</button></td>
+					<div id="modal_03">
+						<div class="modal_content">
+
+							<button type="button" id="modal_close_btn_03">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/라싸바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">4</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_04">크리미안콩고 출혈열 바이러스</button></td>
+					<div id="modal_04">
+						<div class="modal_content">
+
+							<button type="button" id="modal_close_btn_04">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/크리미안콩고출혈열바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+					
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">5</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_05">남아메리카 출혈열 바이러스</button></td>
+					<div id="modal_05">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_05">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/남아메리카출혈열바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">6</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_06">리프트밸리열 바이러스</button></td>
+					<div id="modal_06">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_06">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/리프트밸리열바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">7</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_07">두창 바이러스</button></td>
+					<div id="modal_07"> 
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_07">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/두창바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				
+				<tr>
+					<td class="tbwid_10">8</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_08">페스트균</button></td>
+					<div id="modal_08">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_08">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/페스트균.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">9</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_09">탄저균</button></td>
+					<div id="modal_09">
+						<div class="modal_content">
+							
+							<button type="button" id="modal_close_btn_09">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/탄저균.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">10</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_10">보툴리눔균</button></td>
+					<div id="modal_10">
+						<div class="modal_content">
+							
+							<button type="button" id="modal_close_btn_10">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/보툴리눔균.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">11</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_11">야토균</button></td>
+					<div id="modal_11">
+						<div class="modal_content">
+							
+							<button type="button" id="modal_close_btn_11">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/야토균.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">12</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_12">중증 급성호흡기 증후군</button></td>
+					<div id="modal_12">
+						<div class="modal_content">
+							
+							<button type="button" id="modal_close_btn_12">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/중증급성호흡기증후군.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+
+								
+				<tr>
+					<td class="tbwid_10">13</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_13">중동 호흡기 증후군</button></td>
+					<div id="modal_13">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_13">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/중동호흡기증후군.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">14</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_14">동물 인플루엔자 인체감염증</button></td>
+					<div id="modal_14">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_14">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/동물인플루엔자인체감염증.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">15</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_15">신종인플루엔자 바이러스</button></td>
+					<div id="modal_15">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_15">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/신종인플루엔자바이러스.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">16</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_16">디프테리아균</button></td>
+					<div id="modal_16">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_16">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/디프테리아균.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">17</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_17">보툴리늄 독소</button></td>
+					<div id="modal_17">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_17">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/보툴리늄독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">18</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_18">웰치균 독소</button></td>
+					<div id="modal_18">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_18">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/웰치균독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">19</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_19">코노 독소</button></td>
+					<div id="modal_19">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_19">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/코노독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				
+				<tr>
+					<td class="tbwid_10">20</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_20">시가 독소</button></td>
+					<div id="modal_20">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_20">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/시가독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">21</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_21">포도상구균 장 독소</button></td>
+					<div id="modal_21">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_21">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/포도상구균장독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">22</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_22">복어독</button></td>
+					<div id="modal_22">
+						<div class="modal_content">
+							<button type="button" id="modal_close_btn_22">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/복어독.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">23</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_23">베로톡신</button></td>
+					<div id="modal_23">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_23">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/베로톡신.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">24</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_24">마이크로시스틴</button></td>
+					<div id="modal_24">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_24">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/마이크로시스틴.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">25</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_25">아플라톡신</button></td>
+					<div id="modal_25">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_25">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/아플라톡신.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>	
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">26</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_26">아브린</button></td>
+					<div id="modal_26">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_26">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/아브린.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				
+				<tr>
+					<td class="tbwid_10">27</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_27">Diacetoxyscirpenol toxin</button></td>
+					<div id="modal_27">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_27">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/Diacetoxyscirpenol_toxin.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+								
+				<tr>
+					<td class="tbwid_10">28</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_28">T-2 독소</button></td>
+					<div id="modal_28">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_28">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/T-2독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				
+				<tr>
+					<td class="tbwid_10">29</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_29">볼켄신 독소</button></td>
+					<div id="modal_29">
+						<div class="modal_content">
+							
+							<button type="button" id="modal_close_btn_29">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/볼켄신독소.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+				
+				<tr>
+					<td class="tbwid_10">30</td>
+					<td class="tbwid_20"> <button class="btn1" type="button" id="modal_open_btn_30">리신</button></td>
+					<div id="modal_30">
+						<div class="modal_content">
+						
+							<button type="button" id="modal_close_btn_30">닫기</button>
+							<img class="style-logo" src="./picture/Bpic/리신.jpg" alt="">
+						</div>		
+						<div class="modal_layer"></div>
+					</div>
+				</tr>
+					
+				<tr>
+					<td class="tfable" colspan="4"></td>
+				</tr>
+				
+				
+			</table>
+		</div>			
+
+		
+	</main>
+	
+	<script type="text/javascript" src="./JS/controlDistace.js"></script>		
+</body>	
+</html>
