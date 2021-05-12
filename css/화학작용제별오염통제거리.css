@@ -11,7 +11,9 @@ html, html * {
 
 	
 }
-
+a{
+	z-index: 900;
+}
 #containerB{width: 100%; margin: 0 auto;}
 #containerB #input-form {text-align: center;}
 #user-table{margin-top: 52px; text-align: center;position: fixed;}
