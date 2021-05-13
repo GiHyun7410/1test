@@ -44,10 +44,10 @@ Object.defineProperty(exports, "PDFViewerApplication", ({
   }
 }));
 
-var viewer = new Viewer(document.querySelector('.grid'), {
-navbar : false,
-toolbar : false
-});
+// var viewer = new Viewer(document.querySelector('.grid'), {
+// navbar : false,
+// toolbar : false
+// });
 
 
 var _app_options = __webpack_require__(1);
