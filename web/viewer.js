@@ -50,8 +50,6 @@ toolbar : false
 });
 
 
-출처: https://sub0709.tistory.com/128 [쓸데없는 코딩하기]
-
 var _app_options = __webpack_require__(1);
 
 var _app = __webpack_require__(3);
