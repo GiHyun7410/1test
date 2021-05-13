@@ -350,9 +350,9 @@
 .pdfViewer.removePageBorders .spread .page,
 .pdfViewer.removePageBorders.scrollHorizontal .page,
 .pdfViewer.removePageBorders.scrollWrapped .page {
-/*  margin-left: 5px;
-  margin-right: 5px;
-}*/
+ /* margin-left: 5px;
+  margin-right: 5px;*/
+}
 
 .pdfViewer .page canvas {
   margin: 0;
