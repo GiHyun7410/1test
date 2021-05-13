@@ -286,8 +286,7 @@
   direction: ltr;
   width: 110%;
   height: 1056px;
-  align-content: center;
-  align-self: center;
+
   /*margin: 1px auto -8px;*/
   position: relative;
   overflow: visible;
