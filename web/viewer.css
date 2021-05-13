@@ -284,7 +284,7 @@
 
 .pdfViewer .page {
   direction: ltr;
-  width: 100%;
+  width: 110%;
   height: 1056px;
   align-content: center;
   align-self: center;
@@ -315,8 +315,8 @@
 .pdfViewer.scrollHorizontal,
 .pdfViewer.scrollWrapped,
 .spread {
-  margin-left: 3.5px;
-  margin-right: 3.5px;
+/*  margin-left: 3.5px;
+  margin-right: 3.5px;*/
   text-align: center;
 }
 
@@ -344,16 +344,16 @@
 .spread .page,
 .pdfViewer.scrollHorizontal .page,
 .pdfViewer.scrollWrapped .page {
-  margin-left: -3.5px;
-  margin-right: -3.5px;
+/*  margin-left: -3.5px;
+  margin-right: -3.5px;*/
 }
 
 .pdfViewer.removePageBorders .spread .page,
 .pdfViewer.removePageBorders.scrollHorizontal .page,
 .pdfViewer.removePageBorders.scrollWrapped .page {
-  margin-left: 5px;
+/*  margin-left: 5px;
   margin-right: 5px;
-}
+}*/
 
 .pdfViewer .page canvas {
   margin: 0;
