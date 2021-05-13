@@ -162,7 +162,7 @@ table caption{
 	font-weight: 700;
 }
 
- embed{z-index: 900;background: #FFFFFF;} 
+ embed{z-index: 100;background: #FFFFFF;} 
 
 
 /*----------------------------------------------------------------------------------------*/
