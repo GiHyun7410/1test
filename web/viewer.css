@@ -902,7 +902,7 @@ html[dir="rtl"] #sidebarContent {
   -webkit-overflow-scrolling: touch;
   position: absolute;
   top: 32px;
-  right: 0;
+  right: -40px;
   bottom: 0;
   left: 0;
   outline: none;
