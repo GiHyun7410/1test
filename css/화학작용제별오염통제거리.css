@@ -19,7 +19,7 @@ iframe{
 	width: 1px;
 	min-width: 100%;
 	z-index: 900;
-	width:100%;
+	/*width:100%;*/
 	height: 900px;
 /*	align-content: center;
 	align-self: center;
