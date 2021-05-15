@@ -199,8 +199,8 @@
 
 .annotationLayer .textWidgetAnnotation input.comb {
   font-family: monospace;
-  /*padding-left: 2px;*/
-  /*padding-right: 0;*/
+  padding-left: 2px;
+  padding-right: 0;
 }
 
 .annotationLayer .textWidgetAnnotation input.comb:focus {
@@ -252,13 +252,13 @@
 
 .annotationLayer .popup span {
   display: inline-block;
-  /*margin-left: 5px;*/
+  margin-left: 5px;
 }
 
 .annotationLayer .popup p {
-  /*border-top: 1px solid rgba(51, 51, 51, 1);
+  border-top: 1px solid rgba(51, 51, 51, 1);
   margin-top: 2px;
-  padding-top: 2px;*/
+  padding-top: 2px;
 }
 
 .annotationLayer .highlightAnnotation,
@@ -284,21 +284,20 @@
 
 .pdfViewer .page {
   direction: ltr;
-  width: 120%;
+  width: 816px;
   height: 1056px;
-
-  /*margin: 1px auto -8px;*/
+  margin: 1px auto -8px;
   position: relative;
   overflow: visible;
- /* border: 0px solid transparent;
-  background-clip: content-box;*/
-  /*-o-border-image: url(images/shadow.png) 9 9 repeat;
-     border-image: url(images/shadow.png) 9 9 repeat;*/
-  /*background-color: rgba(255, 255, 255, 1);*/
+  border: 9px solid transparent;
+  background-clip: content-box;
+  -o-border-image: url(images/shadow.png) 9 9 repeat;
+     border-image: url(images/shadow.png) 9 9 repeat;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .pdfViewer.removePageBorders .page {
-  /*margin: 0 auto 10px;*/
+  margin: 0 auto 10px;
   border: none;
 }
 
@@ -314,8 +313,8 @@
 .pdfViewer.scrollHorizontal,
 .pdfViewer.scrollWrapped,
 .spread {
-/*  margin-left: 3.5px;
-  margin-right: 3.5px;*/
+  margin-left: 3.5px;
+  margin-right: 3.5px;
   text-align: center;
 }
 
@@ -343,19 +342,19 @@
 .spread .page,
 .pdfViewer.scrollHorizontal .page,
 .pdfViewer.scrollWrapped .page {
-/*  margin-left: -3.5px;
-  margin-right: -3.5px;*/
+  margin-left: -3.5px;
+  margin-right: -3.5px;
 }
 
 .pdfViewer.removePageBorders .spread .page,
 .pdfViewer.removePageBorders.scrollHorizontal .page,
 .pdfViewer.removePageBorders.scrollWrapped .page {
- /* margin-left: 5px;
-  margin-right: 5px;*/
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .pdfViewer .page canvas {
-  /*margin: 0;*/
+  margin: 0;
   display: block;
 }
 
@@ -561,7 +560,7 @@ body {
 }
 
 body {
-  /*font: message-box;*/
+  font: message-box;
   outline: none;
   scrollbar-color: auto auto;
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
@@ -902,7 +901,7 @@ html[dir="rtl"] #sidebarContent {
   -webkit-overflow-scrolling: touch;
   position: absolute;
   top: 32px;
-  right: -40px;
+  right: 0;
   bottom: 0;
   left: 0;
   outline: none;
@@ -935,15 +934,15 @@ html[dir="rtl"]
 }
 
 .toolbar {
-/*  position: relative;
+  position: relative;
   left: 0;
   right: 0;
   z-index: 9999;
-  cursor: default;*/
+  cursor: default;
 }
 
 #toolbarContainer {
-  /*width: 100%;*/
+  width: 100%;
 }
 
 #toolbarSidebar {
@@ -987,7 +986,7 @@ html[dir="rtl"] #toolbarSidebarRight .toolbarButton {
   position: absolute;
   top: 0;
   bottom: 0;
-  /*width: 6px;*/
+  width: 6px;
   z-index: 200;
   cursor: ew-resize;
 }
