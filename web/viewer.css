@@ -1468,7 +1468,7 @@ html[dir="rtl"] #outerContainer.sidebarOpen #loadingBar {
   height: auto;
 }
 html[dir="ltr"] .findbar {
-  left: 64px;
+  /*left: 64px;*/
 }
 html[dir="rtl"] .findbar {
   right: 64px;
@@ -3817,7 +3817,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
     width: 0;
   }
   html[dir="ltr"] .findbar {
-    left: 34px;
+    /*left: 34px;*/
   }
   html[dir="rtl"] .findbar {
     right: 34px;
