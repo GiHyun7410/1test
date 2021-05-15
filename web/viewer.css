@@ -3445,7 +3445,7 @@ html[dir="rtl"] .treeItemToggler::before {
 }
 
 #overlayContainer > .container {
-  display: table-cell;
+  /*display: table-cell;*/
   vertical-align: middle;
   text-align: center;
 }
