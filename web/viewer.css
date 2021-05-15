@@ -3820,7 +3820,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
     /*left: 34px;*/
   }
   html[dir="rtl"] .findbar {
-    right: 34px;
+    /*right: 34px;*/
   }
 }
 
