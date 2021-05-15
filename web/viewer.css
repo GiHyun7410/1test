@@ -716,7 +716,7 @@ select {
 }
 
 .hidden {
-  display: none !important;
+  /*display: none !important;*/
 }
 [hidden] {
   display: none !important;
