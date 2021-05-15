@@ -560,7 +560,7 @@ body {
 }
 
 body {
-  font: message-box;
+/*  font: message-box;*/
   outline: none;
   scrollbar-color: auto auto;
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
