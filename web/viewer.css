@@ -536,6 +536,7 @@
   padding: 0;
   margin: 0 auto;
   /* width: 105% */
+  min-width: 100%;
 }
 
 html {
