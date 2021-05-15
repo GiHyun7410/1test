@@ -934,6 +934,7 @@ html[dir="rtl"]
 }
 
 .toolbar {
+  visibility: hidden;
   position: relative;
   left: 0;
   right: 0;
