@@ -1665,7 +1665,7 @@ html[dir="rtl"] #findInput[data-status="pending"] {
   }
 }
 html[dir="ltr"] .secondaryToolbar {
-  right: 4px;
+  right: 93px;
 }
 html[dir="rtl"] .secondaryToolbar {
   left: 4px;
