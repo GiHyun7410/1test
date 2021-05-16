@@ -19,8 +19,11 @@ iframe{
 	width: 1px;
 	min-width: 100%;
 	z-index: 900;
-	/*height: auto;*/
-	/*min-height: 100%*/
+	/*width:100%;*/
+	height: 900px;
+/*	align-content: center;
+	align-self: center;
+	align-items: center;*/
 }
 #containerB{width: 100%; margin: 0 auto;}
 #containerB #input-form {text-align: center;}
