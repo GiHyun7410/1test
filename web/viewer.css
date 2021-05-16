@@ -363,13 +363,13 @@
 }
 
 .pdfViewer .page .loadingIcon {
-  position: absolute;
+/*  position: absolute;
   display: block;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  background: url("images/loading-icon.gif") center no-repeat;
+  background: url("images/loading-icon.gif") center no-repeat;*/
 }
 
 .pdfPresentationMode .pdfViewer {
@@ -384,8 +384,8 @@
 
 .pdfPresentationMode .pdfViewer .page,
 .pdfPresentationMode .pdfViewer.removePageBorders .page {
-  margin-left: auto;
-  margin-right: auto;
+/*  margin-left: auto;
+  margin-right: auto;*/
 }
 
 .pdfPresentationMode:-webkit-full-screen .pdfViewer .page {
@@ -409,9 +409,9 @@
 }
 
 :root {
-  --sidebar-width: 200px;
+/*  --sidebar-width: 200px;
   --sidebar-transition-duration: 200ms;
-  --sidebar-transition-timing-function: ease;
+  --sidebar-transition-timing-function: ease;*/
   --loadingBar-end-offset: 0;
 
   --toolbar-icon-opacity: 0.7;
