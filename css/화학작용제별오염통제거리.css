@@ -19,7 +19,7 @@ iframe{
 	width: 1px;
 	min-width: 100%;
 	z-index: 900;
-	height: auto;
+	/*height: auto;*/
 	min-height: 100%
 }
 #containerB{width: 100%; margin: 0 auto;}
