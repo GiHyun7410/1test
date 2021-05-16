@@ -284,8 +284,8 @@
 
 .pdfViewer .page {
   direction: ltr;
-  width: auto;
-  height: auto;
+  width: 816px;
+  height: 1056px;
   /*margin: 1px auto -8px;*/
   position: relative;
   overflow: visible;
