@@ -536,6 +536,7 @@
   padding: 0;
   margin: 0 auto;
   /* width: 105% */
+  height: auto;
   min-width: 100%;
   min-height: 106%;
 }
