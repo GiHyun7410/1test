@@ -297,7 +297,7 @@
 }
 
 .pdfViewer.removePageBorders .page {
-  margin: 0 auto 10px;
+  /*margin: 0 auto 10px;*/
   border: none;
 }
 
@@ -313,8 +313,8 @@
 .pdfViewer.scrollHorizontal,
 .pdfViewer.scrollWrapped,
 .spread {
-  margin-left: 3.5px;
-  margin-right: 3.5px;
+/*  margin-left: 3.5px;
+  margin-right: 3.5px;*/
   text-align: center;
 }
 
@@ -342,15 +342,15 @@
 .spread .page,
 .pdfViewer.scrollHorizontal .page,
 .pdfViewer.scrollWrapped .page {
-  margin-left: -3.5px;
-  margin-right: -3.5px;
+/*  margin-left: -3.5px;
+  margin-right: -3.5px;*/
 }
 
 .pdfViewer.removePageBorders .spread .page,
 .pdfViewer.removePageBorders.scrollHorizontal .page,
 .pdfViewer.removePageBorders.scrollWrapped .page {
-  margin-left: 5px;
-  margin-right: 5px;
+/*  margin-left: 5px;
+  margin-right: 5px;*/
 }
 
 .pdfViewer .page canvas {
@@ -537,7 +537,7 @@
   margin: 0 auto;
   /* width: 105% */
   min-width: 100%;
-  min-height: 105%;
+  min-height: 106%;
 }
 
 html {
