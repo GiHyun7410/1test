@@ -19,7 +19,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  overflow: hidden;
+  overflow: visible;
   opacity: 0.2;
   line-height: 1;
 }
