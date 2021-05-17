@@ -64,7 +64,7 @@
 }
 
 .textLayer .endOfContent {
-  display: block;
+  display: none;
   position: absolute;
   left: 0;
   top: 100%;
