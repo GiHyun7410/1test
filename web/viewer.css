@@ -3759,7 +3759,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   display: none;
 }
 
-@media all and (max-width: 900px) {
+/*@media all and (max-width: 900px) {
   #toolbarViewerMiddle {
     display: table;
     margin: auto;
@@ -3767,9 +3767,9 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
     position: inherit;
     transform: none;
   }
-}
+}*/
 
-@media all and (max-width: 840px) {
+/*@media all and (max-width: 840px) {
   #sidebarContent {
     background-color: rgba(0, 0, 0, 0.7);
   }
@@ -3789,7 +3789,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   #outerContainer .visibleMediumView {
     display: none;
   }
-}
+}*/
 
 /*@media all and (max-width: 770px) {
   #outerContainer .hiddenLargeView {
