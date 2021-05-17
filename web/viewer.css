@@ -10,7 +10,7 @@
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
- * limitations under the License.
+ * limitations under the License
  */
 
 .textLayer {
@@ -19,7 +19,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  overflow: hidden;
+  overflow: visible;
   opacity: 0.2;
   line-height: 1;
 }
@@ -64,7 +64,7 @@
 }
 
 .textLayer .endOfContent {
-  display: block;
+  display: none;
   position: absolute;
   left: 0;
   top: 100%;
@@ -284,16 +284,17 @@
 
 .pdfViewer .page {
   direction: ltr;
-  width: 816px;
+  /*width: 100%;*/
+  min-width: 100%%;
   height: 1056px;
   /*margin: 1px auto -8px;*/
-  position: relative;
+  position:all;
   overflow: visible;
   /*border: 9px solid transparent;*/
-  background-clip: content-box;
-  -o-border-image: url(images/shadow.png) 9 9 repeat;
-     border-image: url(images/shadow.png) 9 9 repeat;
-  background-color: rgba(255, 255, 255, 1);
+  /*background-clip: content-box;*/
+  /*-o-border-image: url(images/shadow.png) 9 9 repeat;*/
+     /*border-image: url(images/shadow.png) 9 9 repeat;*/
+  /*background-color: rgba(255, 255, 255, 1);*/
 }
 
 .pdfViewer.removePageBorders .page {
@@ -3759,7 +3760,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   display: none;
 }
 
-@media all and (max-width: 900px) {
+/*@media all and (max-width: 900px) {
   #toolbarViewerMiddle {
     display: table;
     margin: auto;
@@ -3767,9 +3768,9 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
     position: inherit;
     transform: none;
   }
-}
+}*/
 
-@media all and (max-width: 840px) {
+/*@media all and (max-width: 840px) {
   #sidebarContent {
     background-color: rgba(0, 0, 0, 0.7);
   }
@@ -3789,27 +3790,27 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   #outerContainer .visibleMediumView {
     display: none;
   }
-}
+}*/
 
-@media all and (max-width: 770px) {
+/*@media all and (max-width: 770px) {
   #outerContainer .hiddenLargeView {
     display: none;
   }
   #outerContainer .visibleLargeView {
     display: inherit;
   }
-}
+}*/
 
-@media all and (max-width: 700px) {
+/*@media all and (max-width: 700px) {
   #outerContainer .hiddenMediumView {
     display: none;
   }
   #outerContainer .visibleMediumView {
     display: inherit;
   }
-}
+}*/
 
-@media all and (max-width: 640px) {
+/*@media all and (max-width: 640px) {
   .hiddenSmallView,
   .hiddenSmallView * {
     display: none;
@@ -3821,14 +3822,14 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
     width: 0;
   }
   html[dir="ltr"] .findbar {
-    /*left: 34px;*/
+    left: 34px;
   }
   html[dir="rtl"] .findbar {
-    /*right: 34px;*/
+    right: 34px;
   }
-}
+}*/
 
-@media all and (max-width: 535px) {
+/*@media all and (max-width: 535px) {
   #scaleSelectContainer {
     display: none;
   }
