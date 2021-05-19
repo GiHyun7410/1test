@@ -876,7 +876,7 @@ html[dir="rtl"] #outerContainer.sidebarOpen #sidebarContainer {
 }
 
 #mainContainer {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -889,7 +889,7 @@ html[dir="rtl"] #outerContainer.sidebarOpen #sidebarContainer {
   bottom: 0;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  position: absolute;
+  position: fixed;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
 }
