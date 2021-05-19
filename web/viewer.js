@@ -70,7 +70,7 @@ function getViewerConfiguration() {
     eventBus: null,
     toolbar: {
       container: document.getElementById("toolbarViewer"),
-    //   numPages: document.getElementById("numPages"),
+      numPages: document.getElementById("numPages"),
     //   pageNumber: document.getElementById("pageNumber"),
     //   scaleSelectContainer: document.getElementById("scaleSelectContainer"),
     //   scaleSelect: document.getElementById("scaleSelect"),
