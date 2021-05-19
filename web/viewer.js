@@ -69,7 +69,7 @@ function getViewerConfiguration() {
     viewerContainer: document.getElementById("viewer"),
     eventBus: null,
     toolbar: {
-      container: document.getElementById("toolbarViewer"),
+      // container: document.getElementById("toolbarViewer"),
       numPages: document.getElementById("numPages"),
       pageNumber: document.getElementById("pageNumber"),
       scaleSelectContainer: document.getElementById("scaleSelectContainer"),
