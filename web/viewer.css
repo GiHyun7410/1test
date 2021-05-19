@@ -556,13 +556,13 @@ body {
   background-color: var(--body-bg-color);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   body {
   background-color: rgba(42, 42, 46, 1);
   background-color: var(--body-bg-color);
   }
-}
+}*/
 
 body {
 /*  font: message-box;*/
@@ -571,7 +571,7 @@ body {
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   body {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
@@ -601,7 +601,7 @@ body {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
 
 input {
   font: message-box;
@@ -610,7 +610,7 @@ input {
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   input {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
@@ -655,31 +655,31 @@ button {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
-
-  button {
-  scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
-  scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   button {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   button {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
+
+/*@media (prefers-color-scheme: dark) {
+
+  button {
+  scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
+  scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
+  }
+}*/
 
 select {
   font: message-box;
@@ -688,37 +688,37 @@ select {
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   select {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
-
-  select {
-  scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
-  scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   select {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
   select {
   scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
   scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
   }
-}
+}*/
+
+/*@media (prefers-color-scheme: dark) {
+
+  select {
+  scrollbar-color: rgba(121, 121, 123, 1) rgba(35, 35, 39, 1);
+  scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
+  }
+}*/
 
 .hidden {
   display: none !important;
