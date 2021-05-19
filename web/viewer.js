@@ -68,8 +68,8 @@ function getViewerConfiguration() {
     mainContainer: document.getElementById("viewerContainer"),
     viewerContainer: document.getElementById("viewer"),
     eventBus: null,
-    // toolbar: {
-    //   container: document.getElementById("toolbarViewer"),
+    toolbar: {
+      container: document.getElementById("toolbarViewer"),
     //   numPages: document.getElementById("numPages"),
     //   pageNumber: document.getElementById("pageNumber"),
     //   scaleSelectContainer: document.getElementById("scaleSelectContainer"),
@@ -85,7 +85,7 @@ function getViewerConfiguration() {
     //   presentationModeButton: document.getElementById("presentationMode"),
     //   download: document.getElementById("download"),
     //   viewBookmark: document.getElementById("viewBookmark")
-    // },
+    },
     secondaryToolbar: {
       toolbar: document.getElementById("secondaryToolbar"),
       toggleButton: document.getElementById("secondaryToolbarToggle"),
