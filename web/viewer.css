@@ -3566,7 +3566,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   color: rgba(0, 0, 0, 1);
   margin-top: 5px;
   visibility: hidden;
-  position: fixed;
+  position: relative;
   /*right: 0;*/
   top: 0;
 }
@@ -3574,7 +3574,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
 #PDFBug {
   background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
   border: 1px solid rgba(102, 102, 102, 1);
-  position: fixed;
+  position: relative;
   top: 32px;
   right: 0;
   bottom: 0;
@@ -3592,7 +3592,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   left: 0;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 27px;
 }
@@ -3664,7 +3664,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   cursor: url("images/grabbing.cur"), move !important;
   cursor: -webkit-grabbing !important;
   cursor: grabbing !important;
-  position: fixed;
+  position: relative;
   background: rgba(0, 0, 0, 0);
   display: block;
   top: 0;
@@ -3706,7 +3706,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
   #viewerContainer,
   .page,
   .page canvas {
-    position: static;
+    position: relative;
     padding: 0;
     margin: 0;
   }
