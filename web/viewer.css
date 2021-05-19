@@ -887,12 +887,13 @@ html[dir="rtl"] #outerContainer.sidebarOpen #sidebarContainer {
 
 #sidebarContent {
   top: 32px;
-  bottom: 0;
+  /*bottom: 0;*/
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  left: 50%
+  /*width: 100%;*/
+  /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 html[dir="ltr"] #sidebarContent {
   left: 0;
