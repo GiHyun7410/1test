@@ -879,9 +879,10 @@ html[dir="rtl"] #outerContainer.sidebarOpen #sidebarContainer {
 #mainContainer {
   position: absolute;
   top: 0;
-  right: 0;
+  /*right: 0;*/
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
   min-width: 320px;
 }
 
@@ -892,16 +893,17 @@ html[dir="rtl"] #outerContainer.sidebarOpen #sidebarContainer {
   -webkit-overflow-scrolling: touch;
   position: absolute;
   left: 50%
+  transform: translate(-50%, 0);
   /*width: 100%;*/
   /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 html[dir="ltr"] #sidebarContent {
   left: 0;
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+  /*box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);*/
 }
 html[dir="rtl"] #sidebarContent {
   right: 0;
-  box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25);
+  /*box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25);*/
 }
 
 #viewerContainer {
