@@ -905,7 +905,7 @@ html[dir="rtl"] #sidebarContent {
 #viewerContainer {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  position: absolute;
+  position: fixed;
   top: 32px;
   right: 0;
   bottom: 0;
