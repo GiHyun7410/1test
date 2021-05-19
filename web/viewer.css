@@ -552,6 +552,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+  position: relative;;
   background-color: rgba(237, 237, 240, 1);
   background-color: var(--body-bg-color);
 }
@@ -877,10 +878,10 @@ html[dir="rtl"] #outerContainer.sidebarOpen #sidebarContainer {
 
 #mainContainer {
   position: absolute;
-  top: 50%;
-  /*right: 0;*/
-  /*bottom: 0;*/
-  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   min-width: 320px;
 }
 
@@ -906,10 +907,10 @@ html[dir="rtl"] #sidebarContent {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  top: 32px;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  /*right: 0;*/
+  /*bottom: 0;*/
+  left: 50%;
   outline: none;
 }
 #viewerContainer:not(.pdfPresentationMode) {
